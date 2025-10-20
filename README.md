@@ -22,27 +22,6 @@ Sistem ini menggunakan alur tiga langkah:
 
 ---
 
-## ⚙️ Struktur Folder
-
-```
-
-face-recognition-project/
-│
-├── collect\_data.py             \# Script untuk mengumpulkan data wajah (input nama & ambil gambar)
-├── train\_model.py              \# Script untuk melatih LBPH model
-├── recognize\_face.py           \# Script untuk pengenalan wajah real-time
-│
-├── face\_recognition\_data/      \# Folder tempat gambar wajah mentah disimpan (Otomatis dibuat)
-│   ├── [Nama]\_1.jpg
-│   ├── [Nama]\_2.jpg
-│   └── ...
-│
-├── face\_recognizer\_data.xml    \# Model hasil pelatihan (Otomatis dibuat setelah training)
-├── requirements.txt            \# Daftar dependensi
-└── README.md
-
-````
-
 ---
 
 ## 🚀 Cara Menjalankan Project
